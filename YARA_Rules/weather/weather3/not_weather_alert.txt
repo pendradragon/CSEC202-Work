@@ -1,0 +1,5 @@
+rule weather3
+//should NOT flag the file weather_alert as malware
+{
+	condition:
+}		filesize < 1KB
