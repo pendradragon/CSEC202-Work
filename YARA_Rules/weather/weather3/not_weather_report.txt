@@ -1,5 +1,5 @@
 rule weather3
-
+//should not flag the file weather_report as malware
 {
 	condition:
 }		filesize > 1 KB
