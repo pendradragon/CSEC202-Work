@@ -1,0 +1,18 @@
+rule poemHorror1
+/*
+	Should use a hexadecimal string to distinguish between the two files. 
+	poem_fragment.txt should match
+	horror_script.txt should not match
+*/
+{
+	meta: 
+		Author = "Megan Kerstetter"
+		Date = "2025-04-24"
+
+	strings: 
+		$first_string_hex  = {54 68 65 20 6E 69 67 68 74 20 77 61 73 20 63 61 6C 6D 2C 20 79 65 74 20 73 68 61 64 6F 77 73 20 73 77 61 79 65 64}
+
+	condition:
+		$first_string_hex
+}
+	
