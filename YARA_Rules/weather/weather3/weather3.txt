@@ -1,0 +1,5 @@
+rule weather3
+
+{
+	condition:
+}		filesize < 1KB
