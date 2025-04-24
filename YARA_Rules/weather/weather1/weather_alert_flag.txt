@@ -2,7 +2,6 @@ rule weather1
 //should return weather_alert.txt as "malware"
 {
 	meta: 
-		author = "Megan Kerstetter"
 		date = "2025-04-24"
 		description = "Uses two conditions joined together with 'and' to determine the 'malware'." 
 
