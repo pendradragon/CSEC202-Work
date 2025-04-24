@@ -5,7 +5,6 @@ rule poemHorror3
 */
 {
 	meta:
-		Author = "Megan Kerstetter"
 		Date = "2025-04-24"
 	strings:
 		$a = "a"
