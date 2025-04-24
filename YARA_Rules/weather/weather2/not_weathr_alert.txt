@@ -2,7 +2,6 @@ rule weather2
 //this file should NOT flag weather_alert.txt as malware
 {
 	meta:
-		Author = "Megan Kerstetter"
 		Date = "2025-04-24"
 		Description = "Determining which file is malware determining on the value of a NOT condition"
 
