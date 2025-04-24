@@ -1,0 +1,16 @@
+rule poemHorror3
+/* 
+	Chose a string that is located in both files. 
+	This rule should distinguish between the two files based on the number of times that word occurs
+*/
+{
+	meta:
+		Author = "Megan Kerstetter"
+		Date = "2025-04-24"
+	strings:
+		$a = "a"
+	condition: 
+		#a < 2
+}
+
+		
