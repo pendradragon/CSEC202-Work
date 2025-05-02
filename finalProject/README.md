@@ -28,5 +28,3 @@ For each file, the following information should be provided:
     - Most sysinternals tools, Wireshark, etc.
   - "Advanced" dynamic analysis
     - Executing the sample in a debugger
-   
-***The final report with the combin
