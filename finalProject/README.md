@@ -28,3 +28,5 @@ For each file, the following information should be provided:
     - Most sysinternals tools, Wireshark, etc.
   - "Advanced" dynamic analysis
     - Executing the sample in a debugger
+
+Malware Source: https://bazaar.abuse.ch/download/230876d148144e0ca82d69bf92edd6cd8b4cc99749c3d50f3af0ab05c58a2efe7/
