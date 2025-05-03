@@ -1,0 +1,37 @@
+File-related:
+	- text file busy
+
+Resource-related:
+	- device or resource busy
+	- operation in progress
+	- too many symbolic link levels
+	- inappropriate io control operation 
+	- InternalName
+
+Directory-related:
+	- not a directory
+	- is a directory
+
+Connection-related:
+	- connection reset
+	- network reset
+	- connection already in progress
+	- cross device link
+
+Base Class Descriptor at... strings:
+	- 'vector deleting destructor'
+	- 'scalar deleting destructor'
+	- MANY lines about constructor iterators
+	- 3 lines of destructor iterators
+	- 'Complete Object Locator' 
+	- 'virtual displacement map'
+	- 'anonymous namespace' 
+	- 'local static thread guard'
+	- 'local static guard'
+	- 'dynamic atexit destructor for ' 
+	- 'dynamic initializer for ' 
+
+Other (I do not have a heading for this):
+	- 040904B0
+	- 10.0.19041.4355 (WinBuild.160101.0800)
+	- mobsync.exe 
