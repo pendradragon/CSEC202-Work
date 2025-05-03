@@ -1,0 +1,3 @@
+HashMyFile
+Strings 
+  - Used to obtain function names (see functionsOfInterest) and strings (see StringsOfInterest)
