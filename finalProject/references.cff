@@ -3,6 +3,8 @@ Functions:
 
   barrygolden. (2024, February 22). InitializeSListHead function (wdm.h) - Windows drivers. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-initializeslisthead
 
+  GrantMeStrength. (2021, October 13). RtlVirtualUnwind function (winnt.h) - Win32 apps. Learn.microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-rtlvirtualunwind
+
   jeffschwMSFT. (2021, September 15). CorExitProcess Function - .NET Framework. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/framework/unmanaged-api/hosting/corexitprocess-function
 
   karl-bridge-microsoft. (2024a, February 2). FlsAlloc function - Win32 apps. Learn.microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/fibersapi/nf-fibersapi-flsalloc
