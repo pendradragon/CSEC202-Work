@@ -1,5 +1,6 @@
-
 Functions: 
   alvinashcraft. (2023, February 9). FindFirstFileExW function (fileapi.h) - Win32 apps. Microsoft.com. https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-findfirstfileexw
+
+  jeffschwMSFT. (2021, September 15). CorExitProcess Function - .NET Framework. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/framework/unmanaged-api/hosting/corexitprocess-function
 
   karl-bridge-microsoft. (2024, February 5). InitializeCriticalSectionEx function (synchapi.h) - Win32 apps. Microsoft.com. https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-initializecriticalsectionex
