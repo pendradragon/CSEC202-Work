@@ -7,6 +7,8 @@ Functions:
 
   karl-bridge-microsoft. (2024b, February 5). EnterCriticalSection function (synchapi.h) - Win32 apps. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-entercriticalsection
 
+  karl-bridge-microsoft. (2024c, February 5). InitializeCriticalSectionAndSpinCount function (synchapi.h) - Win32 apps. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-initializecriticalsectionandspincount
+
   karl-bridge-microsoft. (2024, February 5). InitializeCriticalSectionEx function (synchapi.h) - Win32 apps. Microsoft.com. https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-initializecriticalsectionex
 
   karl-bridge-microsoft. (2024c, February 6). DeleteCriticalSection function (synchapi.h) - Win32 apps. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-deletecriticalsection
