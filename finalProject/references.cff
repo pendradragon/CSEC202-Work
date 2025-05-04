@@ -1,6 +1,8 @@
 Functions: 
   alvinashcraft. (2023, February 9). FindFirstFileExW function (fileapi.h) - Win32 apps. Microsoft.com. https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-findfirstfileexw
 
+  barrygolden. (2024, February 22). InitializeSListHead function (wdm.h) - Windows drivers. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-initializeslisthead
+
   jeffschwMSFT. (2021, September 15). CorExitProcess Function - .NET Framework. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/framework/unmanaged-api/hosting/corexitprocess-function
 
   karl-bridge-microsoft. (2024a, February 2). FlsAlloc function - Win32 apps. Learn.microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/fibersapi/nf-fibersapi-flsalloc
