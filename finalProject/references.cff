@@ -10,3 +10,5 @@ Functions:
   karl-bridge-microsoft. (2024, February 5). InitializeCriticalSectionEx function (synchapi.h) - Win32 apps. Microsoft.com. https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-initializecriticalsectionex
 
   karl-bridge-microsoft. (2024c, February 6). DeleteCriticalSection function (synchapi.h) - Win32 apps. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-deletecriticalsection
+
+  karl-bridge-microsoft. (2024e, February 22). GetACP function (winnls.h) - Win32 apps. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-getacp
