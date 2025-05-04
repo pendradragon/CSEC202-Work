@@ -18,3 +18,5 @@ Functions:
   karl-bridge-microsoft. (2024e, February 22). GetACP function (winnls.h) - Win32 apps. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-getacp
 
   karl-bridge-microsoft. (2024f, February 22). GetCPInfo function (winnls.h) - Win32 apps. Microsoft.com; Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-getcpinfo
+
+  LeaveCriticalSection | Task Functions | Cicode. (2018). Johnwiltshire.com. https://johnwiltshire.com/citect-help/Subsystems/CicodeReferenceCitectHTML/Content/LeaveCriticalSection.html
