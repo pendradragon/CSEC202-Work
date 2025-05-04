@@ -1,0 +1,73 @@
+InitalizeCriticalSectionEx (see (karl-bridge-microsoft, 2024))
+	- Threads of a single process can use a critical section object for mutual-exclusion synchronization 
+	- The process is responsible for allocating the memory used by a critical section object (done by declaring a CRITICAL_SECTION)
+	- After initializing a critical section, the threads can specify the object in the EnterCriticalSection,TryEnterCriticalSection,or LeaveCriticalSecion functions 
+
+CorExitProcess (see (jeffschwMSFT, 2021))
+	- Used to shut down all the loaded runtimes gracefully and terminate the process
+
+FlsAlloc (see (karl-bridge-microsoft, 2024))
+	- Allocates a fiber local storage (FLS) index
+	- The index of the FLS index will be used to store and retrieve values that are stored to the local fiber
+
+DeleteCriticalSection (see (karl-bridge-microsoft, 2024))
+	- Deletes a critical section object
+	- Used to synchronize access to a shared resource in a multithreaded environment
+
+EncodePointer
+	- Used to encode a specified pointer
+
+EnterCritcalSelection (see (karl-bridge-microsoft, 2024b))
+	- Enables mutually exclusive access to a shared resource by requesting ownership of the critical section before executing any cod that accesses the protected resource. 
+	- Each thread calls EnterCriticalSection to request ownership
+	- Block execution until the thread can take ownership
+
+FindFirstFileExW (see(alvinashcraft, 2023))
+	- Used to search for files and directories
+
+GetACP (see (karl-bridge-microsoft, 2024e))
+	- Retrieves the current Windows ANSI code page identifier for the operating system
+	- Normally used in applications need to handle text encoding and translation between Unicode and ANSI (American National Standards Institute) formats
+
+GetCPInfo (see (karl-bridge-microsoft, 2024f))
+	- Gets info about any valid, installed, or available code page
+	- Can be used to obtain details like the max character size, default character, and lead byte ranges for the code page
+
+InitalizeCriticalSectionAndSpinCount (see ((karl-bridge-microsoft, 2024c))
+	- When a thread tries to acquire a critical section that is locked, the thread spins (enters a loop that iterates spin count times -- checking to see if the lock is released)
+	- If the lock is not released before the loop finishes, the thread goes to sleep to wait for the lock to be released
+	- The function is used for mutual-exclusion synchronization between threads
+	- Useful for critical sections of short duration that can experience high levels of contention 
+
+InitalizeSListHead (see (barrygolden, 2024))
+	- Initializes the head of a singly linked list
+	- All list items must be aligned on a MEMORY_ALLOCATION_ALIGNMENT boundary. Unaligned items can cause unpredictable results
+
+LeaveCriticalSection (see (LeaveCriticalSection | Task Functions | Cicode, 2018))
+	- Used to release ownership of a critical section object 
+	- Process-based, only prevents access to a critical section within a single process
+	- Introduces a memory barrier where all cached writes are flushed to memory before it returns
+
+QueryPerformanceFrequency
+	- Tells you how many ticks occur in one second
+
+LoadLibraryExW
+	- Loads the specified module into th address space of the calling process
+
+RtlVirtualUnwind (see (GrantMeStrength, 2021))
+	- Retrieves the invocation context of the function that precedes the specified function context
+
+SetFilePointerEx
+	- Moves the file pointer of an open file to a specified location
+	- Useful when you need to read from or write to a specific part of a file
+
+SetStdHandle
+	- Sets the handle for the specified standard device (input, output, errors, etc)
+
+IsDebuggerPresent
+	- Determines whether the process is being called in a debugger by a user-mode debugger
+	- User mode debugger: The debugger is running on the same system as the code is being debugged
+
+RtlCaptureContext
+	- Retrieves a context record in the context of the caller
+	- Used to capture the current context of the calling thread (can be useful for debugging or tracing purposes)
